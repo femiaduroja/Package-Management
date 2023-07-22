@@ -4,12 +4,12 @@
 ##### Prerequisite:
 + AWS Acccount.
 + Create Security Group and open Required ports.
-   + 22 ..etc
+  + 22 etc
 + Create Redhat EC2 T2.medium Instance with 4GB of RAM.
 + Attach Security Group to EC2 Instance.
 + Install java openJDK 1.8+
 
-## 1. Install Java JDK 11+  and other softares (GIT, wget and tree)
+## 1. Install Java JDK 1.8+ and Other Softwares (GIT, wget and tree)
 ``` sh
 # Install Java JDK 11+ as a pre-requisit for maven to run.
 

@@ -1,6 +1,4 @@
-#  **<span style="color:green">Landmark Technologies, Ontario, Canada</span>**
-
-## Apache Maven Installation And Setup In AWS EC2 Redhat Instance
+# Apache Maven Installation And Setup In AWS EC2 Redhat Instance
 ##### Prerequisite:
 + AWS Acccount.
 + Create Security Group and open Required ports.

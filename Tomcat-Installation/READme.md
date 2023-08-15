@@ -1,5 +1,5 @@
 ## Apache Tomcat Installation And Setup In AWS EC2 Redhat Instance.
-##### Prerequisite
+### Prerequisite
 + AWS Acccount.
 + Create Redhat EC2 T2.micro Instance.
 + Create Security Group and open Tomcat ports or Required ports.
@@ -20,7 +20,7 @@ sudo yum install java-1.8.0-openjdk-devel -y
 # Install unzip package.
 sudo yum install unzip -y
 ```
-## Install Tomcat version 9.0.78
+### Install Tomcat version 9.0.78
 ### Download and extract the tomcat server
 ``` sh
 sudo wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.78/bin/apache-tomcat-9.0.78.zip

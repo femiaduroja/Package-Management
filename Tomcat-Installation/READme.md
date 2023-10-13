@@ -20,7 +20,7 @@ sudo yum install git wget unzip -y
 # sudo yum install java-1.8.0-openjdk-devel -y
 sudo yum install java-11-openjdk -y
 ```
-### Install Tomcat version 10.1.14
+### Install Tomcat version 9+
 ### Download and extract the tomcat server
 ``` sh
 sudo wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.82/bin/apache-tomcat-9.0.82.zip

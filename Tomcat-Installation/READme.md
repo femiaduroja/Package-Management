@@ -10,13 +10,13 @@
 ### Install Java JDK 1.8+ 
 
 ``` sh
-# Change hostname to tomcat
+# Change Hostname to Tomcat
 sudo hostnamectl set-hostname tomcat
 sudo su - ec2-user
 cd /opt
-# Install wget and unzip packages
+# Install wget and unzip Packages
 sudo yum install git wget unzip -y
-# Install Java JDK [check latest version] as a pre-requisit for tomcat to run
+# Install Java JDK as a Pre-requisite for Tomcat to Run
 # sudo yum install java-1.8.0-openjdk-devel -y
 sudo yum install java-11-openjdk -y
 ```

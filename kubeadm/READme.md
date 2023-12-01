@@ -9,7 +9,7 @@
 + AWS Acccount.
 + Create 3 - Ubuntu Servers -- 18.04.
 + 1 Master (4GB RAM , 2 Core)  t2.medium
-+ 2 Workers  (1 GB, 1 Core)     t2.micro
++ 2 Workers  (1 GB, 1 Core)    t2.micro
 + Create Security Group and open required ports for kubernetes.
    + Open all port for this illustration
 + Attach Security Group to EC2 Instance/nodes.
@@ -26,7 +26,7 @@ sudo -i
 # copy this script and run in all master and worker nodes
 #i1) Switch to root user [ sudo -i]
 
-sudo hostnamectl set-hostname  node1
+#sudo hostnamectl set-hostname master
 
 #2) Disable swap & add kernel settings
 
